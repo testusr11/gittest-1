@@ -10,6 +10,7 @@ namespace gittest
 {
     public class Program
     {
+		//testt 2
         public static void  
             Main(string[] args)
         {
@@ -22,6 +23,7 @@ namespace gittest
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
+				//sdgsdg
                 .UseApplicationInsights()
                 .Build();
 ///
