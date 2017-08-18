@@ -10,7 +10,7 @@ namespace gittest
 {
     public class Program
     {
-		//testt 2
+		//testt 1
         public static void  
             Main(string[] args)
         {
@@ -18,7 +18,7 @@ namespace gittest
                 .UseKestrel()
                 
                 //vxcvxcv
-                //know anything at all about something in an outer circle. In particular, the name of 
+                //know at all about something in an outer circle. In particular, the name of 
                 //vxc
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
@@ -26,9 +26,9 @@ namespace gittest
 				//sdgsdg
                 .UseApplicationInsights()
                 .Build();
-///
             zxvxvxcv
             host.Run();
+		//1
         }
     }
 }
